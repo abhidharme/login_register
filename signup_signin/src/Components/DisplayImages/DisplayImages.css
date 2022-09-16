@@ -1,0 +1,29 @@
+.mainBox {
+    margin: auto;
+    max-width: 1000px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box2 {
+    border: 1px solid transparent;
+    margin-top: 10px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.box2 div {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.box2>div img {
+    border-radius: 4px;
+    
+}
+
+
+
